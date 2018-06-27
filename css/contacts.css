@@ -190,3 +190,22 @@
     margin-right: 14px;
     letter-spacing: 0.4px;
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .cont-back {
+        position: relative;
+        top: 426px;
+    }
+
+    .content {
+        margin-top: 60px;
+    }
+
+    .left-block {
+        margin: 30px 0 0 40px;
+    }
+
+    .right-block {
+        margin-left: 5px;
+    }
+}
