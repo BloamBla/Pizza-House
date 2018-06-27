@@ -56,3 +56,9 @@
 .drink-desc {
     color: #746e5e;
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .content {
+        margin-top: 60px;
+    }
+}
