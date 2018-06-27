@@ -1,0 +1,58 @@
+.tah-bold {
+    font-family: Tahoma, serif;
+    font-weight: bold;
+}
+
+.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding-top: 30px;
+}
+
+.content-items {
+    max-width: 343px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 343px;
+    flex: 1 1 343px;
+    background: url("../img/drinks-bg.png");
+    margin: 2px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    border-radius: 5px;
+    height: 59px;
+    padding: 7px;
+}
+
+.item-block {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 240px;
+    flex: 1 1 240px;
+}
+
+.item-block:first-child {
+    margin-right: 15px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 79px;
+    flex: 1 1 79px;
+}
+
+.drink-name {
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: block;
+    color: #555147;
+}
+
+.drink-desc {
+    color: #746e5e;
+}

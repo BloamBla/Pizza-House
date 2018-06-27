@@ -1,0 +1,125 @@
+.tah-bold {
+    font-family: Tahoma, serif;
+    font-weight: bold;
+}
+
+.no-dec-link {
+    text-decoration: none;
+}
+
+.rub {
+    font-family: Rubrica, serif;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px black;
+    color: #ffffcc;
+}
+
+.content {
+    width: 385px;
+    grid-area: content;
+}
+
+.content-items {
+    margin: 33px 20px;
+    letter-spacing: 0.6px;
+}
+
+.content-items:first-child {
+    margin-bottom: 15px;
+}
+
+.content-items:last-child {
+    margin-top: 0;
+}
+
+.list-wrap {
+    margin: 0;
+    padding: 0;
+    line-height: 2.4em;
+    font-weight: bold;
+}
+
+.list-head {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.list-item {
+    border-bottom: 1px dashed #b0aa8c;
+    color: #696761;
+    list-style: none;
+    height: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+
+.list-item:first-child {
+    color: #595752;
+    height: 19px;
+}
+
+.price-element {
+    width: 282px;
+}
+
+.price {
+    float: right;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+.price-value {
+    font-size: 11px;
+}
+
+.contact {
+    width: 385px;
+    grid-area: contact;
+}
+
+.cont-back {
+    max-width: 379px;
+    height: 53px;
+    margin-top: 1px;
+    margin-left: 2.5px;
+    background: url("../img/path.png") no-repeat;
+    padding: 15px 15px 15px;
+    line-height: 1em;
+}
+
+.contact-tag {
+    background: url("../img/really-fast-pizza.png") no-repeat;
+    width: 179px;
+    height: 16px;
+    display: inline-block;
+}
+
+.contact-span {
+    background: url("../img/phone-back.png") no-repeat;
+    width: 135px;
+    height: 16px;
+    display: inline-block;
+}
+
+.contact-item {
+    color: #ffffcc;
+}
+
+.contact-item:first-child {
+    margin-right: 25px;
+}
+
+.contact-item:nth-child(4) {
+    letter-spacing: 0.5px;
+}
+
+.contact-item:last-child {
+    float: right;
+    margin-right: 14px;
+    letter-spacing: 0.4px;
+}
