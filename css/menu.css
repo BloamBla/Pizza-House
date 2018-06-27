@@ -92,6 +92,17 @@
     line-height: 1em;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .cont-back {
+        position: relative;
+        top: 426px;
+    }
+
+    .content-items-wrap {
+        margin-top: 80px;
+    }
+}
+
 .contact-tag {
     background: url("../img/really-fast-pizza.png") no-repeat;
     width: 179px;
