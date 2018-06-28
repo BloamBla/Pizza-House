@@ -19,7 +19,12 @@
 }
 
 .content-link {
+    display: block;
     color: #7b7870;
+}
+
+.content-link:last-child {
+    display: inline;
 }
 
 .content {
@@ -28,6 +33,7 @@
     display: flex;
     color: #7b7870;
     line-height: 1.6em;
+    margin-top: 26px;
 }
 
 .left-block {
@@ -68,6 +74,14 @@
     margin: 15px 0 0;
 }
 
+.g-piz-text > span {
+    display: block;
+}
+
+.links-group {
+    margin: 15px 0 13px;
+}
+
 .right-block {
     width: 220px;
     margin: 20px auto 0;
@@ -84,12 +98,26 @@
     grid-area: contact;
 }
 
+.contact-phone {
+    display: inline-block;
+}
+
 .contacts-wrap {
     margin-bottom: 25px;
 }
 
+.contacts-wrap > span {
+    display: block;
+}
+
 .phone-numbers {
     width: 120px;
+    margin-bottom: 12px;
+}
+
+.phone-numbers-item {
+    display: block;
+    justify-content: space-between;
 }
 
 .mail-link {
