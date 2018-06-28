@@ -45,14 +45,10 @@ html, body {
     margin: 0 auto ;
 }
 
-.empty {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: empty;
-}
-
 .menu {
+    margin-top: 27px;
     width: 385px;
+    height: max-content;
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: menu;
@@ -73,6 +69,10 @@ html, body {
     margin: 0 1px;
 }
 
+.menu-link:last-child {
+    width: 97px;
+}
+
 .menu-link:hover {
     color: #633f3e;
     text-decoration: underline;
@@ -84,7 +84,8 @@ html, body {
 
 .link-wrap {
     text-align: center;
-    margin-top: 10px;
+    padding-top: 9px;
+    display: block;
 }
 
 .container {
@@ -100,12 +101,11 @@ html, body {
     display: -ms-grid;
     display: grid;
     grid-template-areas:
-            "empty"
             "menu"
             "content"
             "contact";
-    -ms-grid-rows: 26px 33px 1fr 90px;
-    grid-template-rows: 26px 33px 1fr 90px;
+    -ms-grid-rows: 33px 1fr 90px;
+    grid-template-rows: 33px 1fr 90px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
 }
