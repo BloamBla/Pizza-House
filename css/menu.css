@@ -17,6 +17,7 @@
 .content {
     width: 385px;
     grid-area: content;
+    margin-top: 27px;
 }
 
 .content-items {
@@ -125,7 +126,7 @@
     margin-right: 25px;
 }
 
-.contact-item:nth-child(4) {
+.contact-item:nth-child(3) {
     letter-spacing: 0.5px;
 }
 
